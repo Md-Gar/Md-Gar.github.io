@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Disign Control Panel</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>map control panel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <style>
+        input.MyButton {
+            border-radius: 35%;
+            padding: 12px 24px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            margin: 3px 1.5px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+            text-transform: uppercase;
+            background-color: white;
+            color: black;
+            border: 2px solid #008CBA;
+        }
+        input.MyButton:hover {
+            background-color: #008CBA;
+            color: white;
+            transform: scale(1.1);
+        }
+        input.f {
+            margin: 0;
+            position: absolute;
+            top: 40%;
+            left: 48.5%;
+        }
+        input.b {
+            margin: 0;
+            position: absolute;
+            top: 60%;
+            left: 48.5%;
+        }
+        input.button2 {
+            background-color: white;
+            color: black;
+            border: 2px solid red;
+        }
+
+        input.button2:hover {
+            background-color: red;
+            color: white;
+            transform: scale(1.1);
+        }
+        input.s {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        input.r {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 58%;
+        }
+
+        input.l {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 42%;
+        }
+
+        .image {
+            margin: auto;
+            position: absolute;
+            top: 32%;
+            right: 20%;
+            hight: 150px;
+            width: 120px;
+        }
+
+        h1 {text-align: center;
+            text-transform: uppercase;}
+
+    </style>
+</head>
+<body>
+
+
+<div class="jumbotron text-center">
+<h1> control panel </h1>
+</div>
+
+<div class="col-sm-16">
+
+
+<form>
+    <input class="MyButton f"
+           type="button"
+           value="forward"
+           onclick="window.location.href='forward.php'" />
+
+    <form>
+        <input class="MyButton b"
+               type="button"
+               value="backward"
+               onclick="window.location.href='backward.php'" /> </form>
+
+    <form>
+        <input class="MyButton l"
+               type="button"
+               value="left"
+               onclick="window.location.href='left.php'" /> </form>
+
+    <form>
+        <input class="MyButton r"
+               type="button"
+               value="right"
+               onclick="window.location.href='right.php'" /> </form>
+
+    <form>
+        <input class="MyButton button2 s"
+               type="button"
+               value="stop"
+               onclick="window.location.href='stop.php'" /> </form>
+
+    </div>
+
+<div class="col-sm-0">
+    <img src ="images.jpg" alt = "robot" width="300" height="400" class="image">
+</div>>
+
+
+</body>
+</html>
