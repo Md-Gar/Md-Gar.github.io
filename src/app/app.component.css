@@ -1,0 +1,27 @@
+.card{
+margin: auto;
+margin-left: 5px;
+padding-left: 5px;
+margin-right: 5px;
+max-width: auto;
+font-size: larger;
+justify-content: space-around;
+}
+.left{
+    float: left;
+}
+h3{
+    text-align: center;
+}
+hr{
+color: red;
+font-weight: bolder;
+}
+.title{
+
+    font-size: xx-large;
+    
+}
+mat-grid-tile{
+    background-color: lightgreen;
+}
